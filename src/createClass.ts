@@ -1,10 +1,12 @@
-export function createClass(options: Options) {
+import { addClass } from "./addClass";
+
+export function createClass(options: Options): string {
   const keys = Object.keys(options);
 
   return keys.reduce((accumulator, key) => {
     const current = options[key];
     if (current === true) {
-      return `${accumulator} ${key}`;
+      return addClass(accumulator, key);
     }
 
     return accumulator;
