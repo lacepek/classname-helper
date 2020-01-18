@@ -1,0 +1,25 @@
+{
+  "name": "classname-helper",
+  "version": "1.0.0",
+  "description": "Html class tools",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacepek/classname-helper.git"
+  },
+  "keywords": [
+    "class",
+    "className",
+    "javascript",
+    "html"
+  ],
+  "author": "Ladislav Čepek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacepek/classname-helper/issues"
+  },
+  "homepage": "https://github.com/lacepek/classname-helper#readme"
+}
