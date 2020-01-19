@@ -1,6 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function addClass(className, toBeAdded) {
-    return className + " " + toBeAdded;
+function addClass(classes, toBeAdded) {
+    if (!toBeAdded) {
+        return classes;
+    }
+    return classes + " " + toBeAdded;
 }
 exports.addClass = addClass;

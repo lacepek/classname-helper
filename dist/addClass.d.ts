@@ -1,1 +1,1 @@
-export declare function addClass(className: string, toBeAdded: string): string;
+export declare function addClass(classes: string, toBeAdded: string | null | undefined): string;
