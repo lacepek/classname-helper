@@ -1,11 +1,12 @@
 {
   "name": "classname-helper",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Html class tools",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/lacepek/classname-helper/issues"
   },
-  "homepage": "https://github.com/lacepek/classname-helper#readme"
+  "homepage": "https://github.com/lacepek/classname-helper#readme",
+  "dependencies": {
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  }
 }
