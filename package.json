@@ -1,6 +1,6 @@
 {
   "name": "classname-helper",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Html class tools",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -24,7 +24,7 @@
     "url": "https://github.com/lacepek/classname-helper/issues"
   },
   "homepage": "https://github.com/lacepek/classname-helper#readme",
-  "dependencies": {
+  "devDependencies": {
     "@types/jest": "^25.1.2",
     "jest": "^25.1.0",
     "ts-jest": "^25.2.0",

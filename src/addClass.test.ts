@@ -16,6 +16,13 @@ describe('addClass module', () => {
     expect(className).toBe(expected);
   });
 
+  it('creates className from multiple params including undefined and null values', () => {
+    const className = addClass(base, 'bar', null, 'baz', undefined, 'kaz');
+    const expected = `${base} bar baz kaz`;
+
+    expect(className).toBe(expected);
+  });
+
   it('creates className from array of params', () => {
     const params = ['bar', 'baz', 'kaz'];
     const className = addClass(base, ...params);
